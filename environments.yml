@@ -1,0 +1,10 @@
+name: compression
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - poetry
+  - pip:
+      - pytest==7.4.3
+      - loguru
+      # Add any pip-specific dependencies here, if needed
